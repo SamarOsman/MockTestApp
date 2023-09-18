@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules\\.bin\\cypress",
-    "RunOnChrome": "npm run test -- --browser chrome",
-    "RunOnFireFox": "npm run test -- --browser firefox"
+    "RunOnChrome": "npx cypress run --browser chrome",
+    "RunOnFireFox": "npx cypress run --browser firefox"
 
   },
   "author": "",
